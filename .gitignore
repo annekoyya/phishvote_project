@@ -1,0 +1,68 @@
+# .gitignore for CS20 / PhishGuard project
+# Tailored for Python projects, Jupyter notebooks, datasets, model artifacts, and editor files
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# # Jupyter
+# .ipynb_checkpoints/
+# *.ipynb_checkpoints
+
+# Data (ignore large or sensitive datasets)
+# /data/
+# /PhishGuard/data/
+# If you want to keep a small placeholder, add a .gitkeep file to the folder and uncomment the next line
+# !/data/.gitkeep
+
+# Model and result artifacts
+# models/
+# Result/
+# /PhishGuard/models/
+# /PhishGuard/Result/
+# *.h5
+# *.pkl
+# *.joblib
+# *.model
+
+# Logs, databases, and outputs
+*.log
+logs/
+*.sqlite3
+*.db
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+# .pytest_cache/
+# .coverage
+# htmlcov/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+
+# Misc
+*.bak
+*.tmp
+
+# End of file
